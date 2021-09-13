@@ -1,3 +1,3 @@
 class TicketHistory < ApplicationRecord
-  belongs_to :ticket_id
+  belongs_to :ticket
 end

@@ -1,7 +1,7 @@
-class CreateTickets < ActiveRecord::Migration[6.1]
+class CreateTicketComments < ActiveRecord::Migration[6.1]
   def change
-    create_table :tickets do |t|
-      t.references :project_id, null: false, foreign_key: true
+    create_table :ticket_comments do |t|
+      t.references :ticket, null: false, foreign_key: true
       t.string :title
       t.string :ticket_creator
       t.string :developer
