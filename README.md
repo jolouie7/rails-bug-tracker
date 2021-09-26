@@ -1,25 +1,17 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # rails-bug-tracker
+
+## What does this app do?
+This is a web app that allows teams to keep track of their projects.
+
+
+### Libraries/Tools used
+- Ruby on Rails
+
+### How to setup
+Run the following commands to setup, given node and npm is available:
+
+1. git clone git@github.com:jolouie7/rails-bug-tracker.git
+2. cd rails-bug-tracker
+3. bundle install
+
+### Future additions
